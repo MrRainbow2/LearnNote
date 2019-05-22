@@ -7,6 +7,7 @@ package com.sankuai.test.algorithm.sort;
  * @date 2019/3/15 11:41
  * 选择排序 ：在未排序序列中每次找到最大值(最小值)查到已排序序列的尾端。
  * 时间复杂度 ： O（n^2）
+ * 稳定性：不稳定
  */
 public class SelectionSort {
     static public void main(String[] args) {
