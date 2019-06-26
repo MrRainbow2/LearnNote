@@ -1,5 +1,6 @@
 package com.sankuai.test;
 
+import java.io.File;
 import java.util.HashTable;
 import java.util.Map;
 
@@ -11,10 +12,17 @@ import java.util.Map;
  */
 public class JAVA基础 {
     public static void main(String[] args) {
-        JAVA基础 test = new JAVA基础();
-//        test.Type();
-//        test.cal();
-        test.calRightMove();
+        File file = new File("/Users/renxinlei/FileTest");
+        if (file.exists()) {
+            System.out.println("存在");
+        } else {
+            file.mkdirs();
+        }
+//
+//        JAVA基础 test = new JAVA基础();
+////        test.Type();
+////        test.cal();
+//        test.calRightMove();
     }
 
     public void calRightMove() {

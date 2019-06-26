@@ -11,9 +11,9 @@ import java.io.IOException;
 public class socketTest {
 
     public static void main(String[] args) throws IOException {
-//        ServerSocketChannel  channel = ServerSocketChannel.open();
-//        channel.bind()
-//        channel.register()
+//        ServerSocketChannel  com.sankuai.test.channel = ServerSocketChannel.open();
+//        com.sankuai.test.channel.bind()
+//        com.sankuai.test.channel.register()
         Integer zero = 5;
         System.out.println(zero.hashCode());
     }

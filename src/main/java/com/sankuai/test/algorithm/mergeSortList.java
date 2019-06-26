@@ -1,5 +1,7 @@
 package com.sankuai.test.algorithm;
 
+import java.util.Arrays;
+
 /**
  * @author renxinlei
  * @version V1.0
@@ -34,7 +36,6 @@ public class mergeSortList {
             return;
         }
         int index = m + n - 1;
-
 
     }
 
