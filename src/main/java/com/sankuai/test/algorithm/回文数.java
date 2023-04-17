@@ -11,11 +11,11 @@ import java.util.Stack;
  * @date 2019/4/8 20:12
  */
 public class 回文数 {
-    class Solution {
+    static class Solution {
         public boolean isPalindrome(int x) {
             if (x < 0) {
                 return false;
-            } else if (0 <= x && x < 10) {
+            } else if (x < 10) {
                 return true;
             } else {
                 Stack<Integer> stack = new Stack<>();
@@ -27,7 +27,7 @@ public class 回文数 {
                     x /= 10;
                 }
                 for (Integer num : list) {
-                    if (num != stack.pop()) {
+                    if (!num.equals(stack.pop())) {
                         return false;
                     }
                 }
@@ -36,7 +36,7 @@ public class 回文数 {
         }
     }
     public static void main(String[] args){
-        回文数.Solution solution = new  回文数().new Solution();
-        System.out.println(solution.isPalindrome(-11));
+        回文数.Solution solution = new Solution();
+        System.out.println(solution.isPalindrome(110011));
     }
 }

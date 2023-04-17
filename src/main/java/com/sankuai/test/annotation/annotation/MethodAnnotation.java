@@ -1,6 +1,6 @@
 package com.sankuai.test.annotation.annotation;
 
-import org.springframework.test.context.jdbc.Sql;
+//import org.springframework.test.context.jdbc.Sql;
 
 import java.lang.annotation.*;
 

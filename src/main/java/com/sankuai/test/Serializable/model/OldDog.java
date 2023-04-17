@@ -8,10 +8,10 @@ import java.io.Serializable;
  * @Description:
  * @date 2018/9/10 15:47
  */
-public class OldDog implements Serializable{
+public class OldDog{
     private String name;
     private Integer age;
-//    private String houseName;
+    private String houseName;
     static String owner = "RenXinLei";
     transient String tailLength;
 
@@ -39,13 +39,14 @@ public class OldDog implements Serializable{
     public void setTailLength(String tailLength) {
         this.tailLength = tailLength;
     }
-//    public String getHouseName() {
-//        return houseName;
-//    }
-//
-//    public void setHouseName(String houseName) {
-//        this.houseName = houseName;
-//    }
+
+    public String getHouseName() {
+        return houseName;
+    }
+
+    public void setHouseName(String houseName) {
+        this.houseName = houseName;
+    }
 
     @Override
     public String toString() {

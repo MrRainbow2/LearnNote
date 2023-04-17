@@ -1,7 +1,6 @@
 package com.sankuai.test;
 
 import java.io.File;
-import java.util.HashTable;
 import java.util.Map;
 
 /**
@@ -26,8 +25,8 @@ public class JAVA基础 {
     }
 
     public void calRightMove() {
-        Map map = new HashTable();
-        map.get("22");
+//        Map map = new HashTable();
+//        map.get("22");
     }
 
     public void cal() {

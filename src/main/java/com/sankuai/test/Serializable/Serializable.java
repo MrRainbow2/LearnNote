@@ -16,14 +16,14 @@ public class Serializable {
         OldDog laoWang = new OldDog();
         laoWang.setAge(24);
         laoWang.setName("王建国");
-//        laoWang.setHouseName("LovingApartment");
+        laoWang.setHouseName("LovingApartment");
         laoWang.setTailLength("2m");
-//        serializableMethod(laoWang);
+        serializableMethod(laoWang);
         deSerializableMethod();
     }
 
     static public void serializableMethod(OldDog oldDog) {
-        try (ObjectOutputStream op = new ObjectOutputStream(new FileOutputStream(new File("/Users/renxinlei/dogTest.txt")))) {
+        try (ObjectOutputStream op = new ObjectOutputStream(new FileOutputStream(new File("/Users/erjie/dogTest.txt")))) {
             op.writeObject(oldDog);
             op.flush();
             System.out.println("OldDog 序列化成功！！！");
@@ -33,7 +33,7 @@ public class Serializable {
     }
 
     static public void deSerializableMethod() {
-        File text = new File("/Users/renxinlei/dogTest.txt");
+        File text = new File("/Users/erjie/dogTest.txt");
         try (ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(text))) {
             OldDog oldDog = (OldDog) inputStream.readObject();
             System.out.println("OldDog 反序列化成功！！！");
@@ -44,7 +44,7 @@ public class Serializable {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
         }
 
     }

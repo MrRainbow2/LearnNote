@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Releases" />
+      <option name="name" value="Lianjia-Cprd-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Releases" />
+      <option name="name" value="Lianjia-Cprd-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Cprd-Releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Search-Snapshots" />
+      <option name="name" value="Lianjia-Search-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Releases" />
+      <option name="name" value="Lianjia-Cprd-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Snapshots" />
+      <option name="name" value="Lianjia-Cprd-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Cprd-Snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Iprd-Snapshots" />
+      <option name="name" value="Lianjia-Iprd-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Iprd-Releases" />
+      <option name="name" value="Lianjia-Iprd-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Snapshots" />
+      <option name="name" value="Lianjia-Cprd-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jcenter-snapshots" />
+      <option name="name" value="jcenter" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Search-Releases" />
+      <option name="name" value="Lianjia-Search-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Search-Releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Iprd-Releases" />
+      <option name="name" value="Lianjia-Iprd-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Iprd-Releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Search-Releases" />
+      <option name="name" value="Lianjia-Search-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Iprd-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Iprd-Snapshots" />
+      <option name="name" value="Lianjia-Iprd-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Iprd-Snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Cprd-Snapshots" />
+      <option name="name" value="Lianjia-Cprd-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Search-Snapshots" />
+      <option name="name" value="Lianjia-Search-Snapshots" />
+      <option name="url" value="http://maven.lianjia.com/content/repositories/Lianjia-Search-Snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Lianjia-Common-Releases" />
+      <option name="name" value="Lianjia-Common-Releases" />
+      <option name="url" value="http://maven.lianjia.com/content/groups/Lianjia-Group/" />
+    </remote-repository>
+  </component>
+</project>
